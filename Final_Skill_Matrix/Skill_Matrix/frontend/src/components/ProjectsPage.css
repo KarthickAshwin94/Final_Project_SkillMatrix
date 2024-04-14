@@ -1,0 +1,47 @@
+.projectsContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: grid;
+  gap: 10px;
+}
+
+.formGroup {
+  display: grid;
+  gap: 5px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.selectInput,
+.inputField {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.submitButton {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
